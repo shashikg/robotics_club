@@ -2,7 +2,7 @@
 layout: post
 title: Scoring a job through Robotics Internship
 comments: true
-author: Lakshay Garg, EE, Y13 || Former member of Robocon, Also worked on IGVC.
+author: Lakshay Garg, EE, Y13 
 excerpt_separator: <!--more-->
 ---
 ##### When you plan it right!
@@ -75,7 +75,7 @@ year since I started working on it but what I do remember is how after several
 weeks I was finally happy with the design after about 5 complete rewrites of the
 entire code (over ~1.5k lines of code). Here is the structure I came up with:
 
-{% include image.html url="mpl-flowchart.png" caption="Illustration 2: Major components. The arrows denote what a typical workflow looks like. The worspace
+{% include image.html url="mpl-flowchart.png" caption="Illustration 2: Major components. The arrows denote what a typical workflow looks like. The workspace
 and problem definition are given to a motion planner which consists of a graph builder, a graph search
 and an interpolation method. The planner outputs a path. Each of these components can be visualized." %}
 
